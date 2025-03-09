@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="\image\cv.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        #pro_12 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #pro_12>div {
+            margin-right: 100px;
+        }
+
+        .project {
+            margin-top: 100px;
+        }
+
+        .text_12 {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .text_12:hover {
+            color: rgb(15, 132, 227);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="taskbar_over">
+        <img height="80px" width="60px" src="\image\cv.jpg">
+        <div><a class="taskbar" href="index.html">Home page</a></div>
+        <div><a class="taskbar" href="overview.html" target="_self">Overview</a></div>
+        <div><a class="taskbar" id="taskbar_spec" href="project.html" target="_self">Project</a></div>
+        <div><a class="taskbar" href="contact.html" target="_self">Contact</a></div>
+        <div class="search_bar">
+            <form action="/search" method="get">
+                <input type="text" name="query" placeholder="Search...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <p style="font-weight: bold; margin-top: 20px; font-size: 30px">There are some project I have done:</p>
+    <div id="pro_12">
+        <div style="font-style: italic">
+            <div class="text_12">Honoring your words</div>
+            <a class="project" href="https://sites.google.com/view/nhom02tcdlaehd/trang-ch%E1%BB%A7" target="_blank">
+                <img src="\image\web1.jpg" width="450px" height="270px">
+            </a>
+        </div>
+        <div style="font-style: italic;">
+            <div class="text_12">Automobile Store</div>
+            <a class="project" href="https://phuchaitt3.wixsite.com/automobilestore" target="_blank">
+                <img src="\image\web2.jpg" width="450px" height="270px">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
